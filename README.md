@@ -1,10 +1,23 @@
-## Reference
-    ## 4 JavaScript Design Patterns You Should Know
-    ## es6-design-patterns
-    
--[JavaScript Design Patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
+## Setup and Run ES6 code
 
+Install dependency (babel > 7.x)
+```
+npm i -D @babel/node @babel/core @babel/preset-env
+```
 
+add .babelrc
+```
+{
+    "presets": [
+        "@babel/env"
+    ]
+}
+```
+
+Run 
+```
+  npx babel-node array_es6.js
+```
 
 ## Creational Design Patterns
 
