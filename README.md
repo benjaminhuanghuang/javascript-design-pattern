@@ -17,6 +17,8 @@ add .babelrc
 Run 
 ```
   npx babel-node array_es6.js
+  
+  npm run test
 ```
 
 ## Creational Design Patterns
