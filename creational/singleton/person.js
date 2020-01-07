@@ -4,7 +4,7 @@ class Person {
       return Person.instance;
     }
     Person.instance = this;
-    return this;
+    // return this;    // I think constructor returns 'this' by default
   }
 }
 
