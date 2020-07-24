@@ -4,6 +4,7 @@ class Database {
         return Database.instance;
       }
       this._data = data;
+      // Static
       Database.instance = this;
       Database.exists = true;
       // return this;  // I think constructor returns 'this' by default
